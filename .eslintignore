@@ -1,9 +1,11 @@
 /*.js
 **/*.js
+**/.next/*
 node_modules
 build
 /src/reac-app-env.d.ts
 /src/server.ts
+/src/types/**
 
 tsconfig.json
 README.md

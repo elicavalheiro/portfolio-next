@@ -1,15 +1,16 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
+import Meta from '../components/Meta';
+import { globalStyles } from '../styles/globalStyles';
 
-const Home: NextPage = () => (
-  <div>
-    <Head>
-      <title>Eli Cavalheiro</title>
-      <meta name="description" content="Front-end Developer" />
-    </Head>
+const Home: NextPage = () => {
+  globalStyles();
 
-    <main>Hello World</main>
-  </div>
-);
+  return (
+    <div>
+      <Meta />
+      <main>Hello World</main>
+    </div>
+  );
+};
 
 export default Home;
