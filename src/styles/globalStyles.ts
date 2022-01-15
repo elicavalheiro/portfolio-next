@@ -8,12 +8,12 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: '$mauve1',
-    color: '$mauve12',
+    backgroundColor: '$accent1',
+    color: '$accent12',
   },
 
   'body, input, button, textarea': {
-    fontFamily: '$poppins',
+    fontFamily: '$ubuntu',
     fontWeight: '$regular',
     fontSize: '$small',
   },

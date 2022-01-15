@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import IntroSection from '../components/intro/IntroSection';
 import Meta from '../components/Meta';
 import { globalStyles } from '../styles/globalStyles';
 
@@ -8,7 +9,9 @@ const Home: NextPage = () => {
   return (
     <div>
       <Meta />
-      <main>Hello World</main>
+      <main>
+        <IntroSection />
+      </main>
     </div>
   );
 };

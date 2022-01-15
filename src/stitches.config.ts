@@ -32,24 +32,25 @@ export const {
       ...blackA,
       ...redDark,
 
-      accent1: '$red1',
-      accent2: '$red2',
-      accent3: '$red3',
-      accent4: '$red4',
-      accent5: '$red5',
-      accent6: '$red6',
-      accent7: '$red7',
-      accent8: '$red8',
-      accent9: '$red9',
-      accent10: '$red10',
-      accent11: '$red11',
-      accent12: '$red12',
+      accent1: '$mauve1',
+      accent2: '$mauve2',
+      accent3: '$mauve3',
+      accent4: '$mauve4',
+      accent5: '$mauve5',
+      accent6: '$mauve6',
+      accent7: '$mauve7',
+      accent8: '$mauve8',
+      accent9: '$mauve9',
+      accent10: '$mauve10',
+      accent11: '$mauve11',
+      accent12: '$mauve12',
 
       white: '#fff',
     },
 
     fonts: {
-      poppins: 'Poppins, sans-serif',
+      ubuntu: 'Ubuntu, sans-serif',
+      alegreya: 'Alegreya Sans SC, sans-serif',
     },
 
     space: {
@@ -79,16 +80,25 @@ export const {
     },
 
     fontSizes: {
-      xsmall: '12px',
-      small: '14px',
-      medium: '16px',
-      large: '18px',
+      xsmall1: '12px',
+      xsmall2: '14px',
+      xsmall3: '16px',
+      small1: '18px',
+      small2: '20px',
+      small3: '22px',
+      medium1: '24px',
+      medium2: '26px',
+      medium3: '28px',
+      large1: '32px',
+      large2: '40px',
+      large3: '48px',
     },
 
     fontWeights: {
       regular: '400',
       semiBold: '600',
       bold: '700',
+      extraBold: '900',
     },
 
     radii: {
@@ -123,8 +133,8 @@ export const {
   },
 
   media: {
-    sm: '(min-width: 640px)',
-    md: '(min-width: 768px)',
+    sm: '(min-width: 320px)',
+    md: '(min-width: 640px)',
     lg: '(min-width: 1024px)',
   },
 
